@@ -1,0 +1,6 @@
+{
+  "name": "InstaAuditor",
+  "description": "Professional Instagram data auditor to identify and categorize non-followers from JSON exports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["AI-driven data categorization"]
+}
