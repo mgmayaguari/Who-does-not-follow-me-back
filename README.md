@@ -19,5 +19,8 @@ The engine utilizes a deep-scan matching protocol:
 ## 💎 Value Proposition
 Perfect for professional cleanups. By separating **News & Brands** from **Personal Connections**, you can make informed decisions about your digital environment without accidentally unfollowing close friends or important informational outlets.
 
+## 🪧 Demo
+![Demo of App functionality](images/demo.gif)
+
 ---
 *Created with Google AI Studio Build.*
