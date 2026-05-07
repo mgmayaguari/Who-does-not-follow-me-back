@@ -211,21 +211,29 @@ export default function App() {
               How to get data?
             </h3>
             <ol className="space-y-4 text-zinc-400 text-sm leading-relaxed">
-              <li className="flex gap-3">
+              <li className="flex gap-3 items-center">
                 <span className="flex-shrink-0 w-6 h-6 rounded-full bg-zinc-800 flex items-center justify-center text-xs text-white">1</span>
-                Go to Instagram <span>&rarr;</span> Your Activity <span>&rarr;</span> Download Your Information.
+                <span className="inline-flex items-center flex-wrap gap-2 text-zinc-400">
+                  Go to Instagram <span className="text-zinc-600 font-bold px-1">&rarr;</span> Your Activity <span className="text-zinc-600 font-bold px-1">&rarr;</span> Download Your Information.
+                </span>
               </li>
-              <li className="flex gap-3">
+              <li className="flex gap-3 items-center">
                 <span className="flex-shrink-0 w-6 h-6 rounded-full bg-zinc-800 flex items-center justify-center text-xs text-white">2</span>
-                Choose "Personalized" and select only "Followers and Following".
+                <span className="inline-flex items-center flex-wrap gap-2 text-zinc-400">
+                  Choose "Personalized" and select only "Followers and Following".
+                </span>
               </li>
-              <li className="flex gap-3">
+              <li className="flex gap-3 items-center">
                 <span className="flex-shrink-0 w-6 h-6 rounded-full bg-zinc-800 flex items-center justify-center text-xs text-white">3</span>
-                Format: **JSON**, Quality: **Low** (faster).
+                <span className="inline-flex items-center flex-wrap gap-2 text-zinc-400">
+                  Format: <strong className="text-zinc-100 font-bold bg-zinc-800/50 px-1.5 py-0.5 rounded text-[10px] tracking-wide">JSON</strong>,  Quality: <strong className="text-zinc-100 font-bold bg-zinc-800/50 px-1.5 py-0.5 rounded text-[10px] tracking-wide">LOW</strong> (faster).
+                </span>
               </li>
-              <li className="flex gap-3">
+              <li className="flex gap-3 items-center">
                 <span className="flex-shrink-0 w-6 h-6 rounded-full bg-zinc-800 flex items-center justify-center text-xs text-white">4</span>
-                Once ready, download the ZIP, extract it, and find the JSON files in the `followers_and_following` folder.
+                <span className="inline-flex items-center flex-wrap gap-2 text-zinc-400">
+                  Once ready, extract ZIP and find <span className="text-zinc-300 italic font-medium">JSON</span> files in the <code className="bg-zinc-800/50 px-1.5 py-0.5 rounded text-xs text-zinc-300 font-mono">followers_and_following</code> folder.
+                </span>
               </li>
             </ol>
           </div>
